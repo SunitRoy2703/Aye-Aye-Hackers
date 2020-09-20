@@ -140,7 +140,7 @@ public class Lootmap extends AppCompatActivity {
 
     public class LootLocations {
         public final double latitude;
-        public final double longitude;
+        public  double longitude;
 
         public LootLocations(double lat, double lon) {
             latitude = lat;

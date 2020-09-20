@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this , Lootmap.class));
                 finish();
-
-
             }
         });
     }
