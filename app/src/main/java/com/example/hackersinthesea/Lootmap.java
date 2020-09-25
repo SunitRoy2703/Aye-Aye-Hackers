@@ -26,7 +26,7 @@ public class Lootmap extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Mapbox.getInstance(this,"pk.eyJ1Ijoic3VuaXQyNyIsImEiOiJja2ZhcDJ3aGowOTV0MnNqd2QyMmc0cmcxIn0.yYD5steQw0HpMLfaCjC6CA");
+        Mapbox.getInstance(this,getString(R.string.MAPBOX_ACCESS_TOKEN));
         setContentView(R.layout.loot_map);
 
         mapView = (MapView) findViewById(R.id.mapView);

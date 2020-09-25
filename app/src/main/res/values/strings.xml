@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Hackers in the Sea</string>
-    <string name="pk.eyJ1Ijoic3VuaXQyNyIsImEiOiJja2ZhcDJ3aGowOTV0MnNqd2QyMmc0cmcxIn0.yYD5steQw0HpMLfaCjC6CA">MAPBOX_ACCESS_TOKEN</string>
+    <string name="MAPBOX_ACCESS_TOKEN">PasteYourMapboxAccessTokenHere</string>
 </resources>
